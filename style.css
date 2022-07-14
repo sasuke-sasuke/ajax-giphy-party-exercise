@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:focus {
+    outline: none;
+}
+body {
+    background-color: black;
+}
+h1 {
+    color: rgb(195, 195, 195);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: .5rem;
+    background-color: rgb(195, 195, 195);
+    border-radius: 5px;
+}
+
+button {
+    padding: .5rem;
+    color: white;
+    border-radius: 5px;
+}
+button[type=submit]{
+    background-color: rgb(42, 42, 43);
+}
+button[type=submit]:hover{
+    border-color: blue;
+    background-color: black;
+}
+#delete{
+    background-color: orangered;
+}
+#delete:hover {
+    background-color: rgb(186, 50, 0);
+}
+
+img {
+    margin: 0.2rem;
+}
